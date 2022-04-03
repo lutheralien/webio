@@ -1,0 +1,200 @@
+import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+       font-family: 'Roboto', sans-serif;
+       line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 800 !important;
+}
+a {
+    text-decoration: none;
+    transition: 0.4s ease ;
+    font-weight: 800;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+
+.navbar {
+    box-shadow: 0 20px 10px rgba(0,0,0,0.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 224, 254,0.5),rgba(17, 7, 254,0.6));
+    z-index: -1;
+}
+.bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+}
+
+
+.btn-main {
+    background: linear-gradient(to right, #00e0fe,#1107fe);
+    border-radius: 100px;
+    border: none;
+    font-weight: 300;
+    color: white;
+    margin-left: 45%;
+    
+}
+.btn {
+    padding: 14px 22px;
+    transition: all 0.2s ease;
+
+}
+
+.btn:hover {
+    color:aliceblue;
+    transform: translateY(-5px);
+
+}
+
+.section-intro {
+    margin-bottom: 40px;
+}
+
+ .divider {
+
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.skills {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+   margin: auto;
+   
+}
+
+.skill-name {
+    font-size: 10px;
+    font-weight: 700;
+    color: #131111;
+    text-transform: uppercase;margin: 20px 0;
+}
+
+.skill-bar {
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+
+.skill-per {
+    height: 14px;
+    background: linear-gradient(to right, #00e0fe,#1107fe);#d13639;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+.skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+@keyframes fillBars {
+    from{
+        width: 0;
+    }    
+    to{
+        width: 100%;
+    }
+}
+
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+  
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #149ddd;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+#skills {
+    background: #00e0fe;
+}
+
+.contain {
+    background:  linear-gradient(to right, #00e0fe,#4e49d8);
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    border-width: 5px;
+     width: 5%;
+     border-color: #EAf6f6;
+     margin: auto;
+}
+
+.contact-me {
+    background-color: #66BFBF;
+    padding: 10px;
+}
