@@ -13,6 +13,22 @@ a {
     transition: 0.4s ease ;
     font-weight: 800;
 }
+.navbar{
+/*   z-index should be above .close-navbar-toggler */
+  z-index:2;
+}
+.close-navbar-toggler{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:1;
+  cursor:pointer;
+}
+.close-navbar-toggler.collapsed{
+  z-index:-1;
+}
 
 section{
     padding-top: 80px;
