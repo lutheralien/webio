@@ -1,334 +1,259 @@
-<!doctype html>
-<html lang="en">
-  <head
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to AlienX</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>AlienX</title>
-  </head>
-  <body data-bs-spy="scroll" data-bs-target=".navbar">
-    
-  
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">AlienX</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#hobbies">Hobbies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            
-              
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    </nav>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- NAVBAR// -->
-    <hr>
-    <!-- HERO -->
-<section id="home"  class="bg-cover hero-section" style="background-image: url(img/i2.jpg);">
-  <div class="overlay"></div> 
-  <div class="container text-white text-center">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="display-5">Welcome to the Landing Page Of <br> AlienX.</h1>
-        <p class="my-4">Hi, my name is Luther. I am a continuing student of Ghana Technology University where I am pursuing my bachelors in <strong>Computer Engineering</strong>.</p>
-       
-      </div>
-    </div>
-  </div>
-</section>
+</head>
+<body>
+	<!--------header---->
+	<header>
+		<a href="#" class="logo"><img src="img/logo.png"></a>
+		<div class="bx bx-menu" id="menu-icon"></div>
 
-    <!-- HERO// --> 
+		<ul class="navlist">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#service">Service</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<a href="https://drive.google.com/file/d/1Vv2DWj13fqpkup1_WgqA8FE3I-iE9RQ9/view" class="top-btn">Download CV</a>
+	</header>
 
-    <!-- HOBBIES -->
+	<!--------home---->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h3>Hello, I'm</h3>
+			<h1>Luther Eyandi</h1>
+			<h5>A Creative Designer <span>From Kasoa</span></h5>
+			<p>I'm creative designer based in Accra, and I'm very passionate <br> and dedicated to my work.</p>
+			<div class="social">
+				<a href="https://web.facebook.com/eyandi.lutherking.9/"><i class='bx bxl-facebook'></i></a>
+				<a href="https://www.instagram.com/luther_alien/"><i class='bx bxl-instagram'></i></a>
+				<a href="https://www.linkedin.com/in/eyandi-lutherking-6656a8206/"><i class='bx bxl-linkedin' ></i></a>
+				
+			</div>
+			<a href="#" class="btn">About Me</a>
+		</div>
 
-     <section id="hobbies" class="center">
-       <div class="container">
-         <div class="row">
-           <div class="col-12 section-intro text-center">
-             <h1>Hobbies</h1>
-             <div class="divider">
-               <p>
-                I usually spend my leisure time coding or playing football. I like reading new and trending novels and my favourite genres include action and sci-fi. Being a regular programmer, I believe that I have a strong vocabulary and knowledge of programming language syntax and use cases. My zeal for Coding just motivates me to do more!
-               </p>
-             </div>
-           </div>
-         </div>
-         <div class="row">
-           <div class="col-md-4">
-             <div class="hobbies">
-               <div class="hobbies-img">
-                 <img src="img/programming-langos.png" alt="programming-langos-pic">
-               </div>
-               <div class="mt-5 pt-3">
-                 <h5 style="text-align: center;">Coding In Different Programming Languages</h5>
-                 <p style="text-align: center;">Having To Code with Programming Languages such as Python C++ and Javascript to produce the same result is just as fun as partying for me!</p>
-               </div>
-             </div>
-           </div>
-           <div class="col-md-4">
-            <div class="hobbies">
-              <div class="hobbies-img">
-                <img id="i10" src="img/movie-night.png" alt="movie-pic">
-              </div>
-              <div class="mt-5 pt-3">
-                <h5 style="text-align: center;">Movie Night</h5>
-                <p style="text-align: center;">The time may never be right, but i enjoy watching movies not just for fun, but it is more like a God-given talent 🙃. Friday evening is always when the magic occurs!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="hobbies">
-              <div class="hobbies-img">
-                <img src="img/lionel-messi.png" alt="lionel-messi-pic">
-              </div>
-              <div class="mt-5 pt-3">
-                <h5 style="text-align: center;">Playing and watching football highlights</h5>
-                <p style="text-align: center;">Football is the king, Messi is the Goat. If you have any Problem with this statement, you can find my contact on this page!</p>
-              </div>
-            </div>
-          </div>
+		<div class="home-img">
+			<img src="img/main.png">
+		</div>
+	</section>
 
-         </div>
-       </div>
-     </section>
-    <!-- HOBBIES// -->
-    <hr>
+	<!--------sub service---->
+	<section class="sub-service">
+		<div class="items">
+			<div class="sub-box">
+				<div class="sub-img">
+					<img src="img/target.svg">
+				</div>
+				<h3>Pixel Perfect</h3>
+				<p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
+			</div>
 
-    <!-- SKILLS -->
-    <section id="skills"> 
-      <div class="skills">
-      <div class="skill">
-        <h1 style="font-size: 50px;">Skills</h1>
-        <p>
-          Got enormous skills when it comes to computers. I literally spend time on them more than anything or anyone else.
-          These are just few of the geeky things i'm learning and more is on the way, coz learning never ends!
+			<div class="sub-box">
+				<div class="sub-img">
+					<img src="img/brush.svg">
+				</div>
+				<h3>High Quality</h3>
+				<p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
+			</div>
 
-        </p>
-          <div class="skill-name">HTML</div>
-          <div class="skill-bar">
-            <div class="skill-per" per="90%" style="max-width: 90%;"></div>
-          </div>
-      </div>
+			<div class="sub-box">
+				<div class="sub-img">
+					<img src="img/energy.svg">
+				</div>
+				<h3>Awesome Idea</h3>
+				<p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
+			</div>
 
-      <div class="skill">
-        <div class="skill-name">CSS</div>
-        <div class="skill-bar">
-          <div class="skill-per" per="80%" style="max-width: 80%;"></div>
-        </div>
-    </div>
+		</div>
+	</section>
 
-    <div class="skill">
-      <div class="skill-name">JAVASCIPT</div>
-      <div class="skill-bar">
-        <div class="skill-per" per="70%" style="max-width: 70%;"></div>
-      </div>
-  </div>
-  <div class="skill">
-    <div class="skill-name">Linux Management</div>
-    <div class="skill-bar">
-      <div class="skill-per" per="50%" style="max-width: 50%;"></div>
-    </div>
-</div>
-<div class="skill">
-  <div class="skill-name">Python</div>
-  <div class="skill-bar">
-    <div class="skill-per" per="30%" style="max-width: 30%;"></div>
-  </div>
-</div>
-<div class="skill">
-  <div class="skill-name">C++</div>
-  <div class="skill-bar">
-    <div class="skill-per" per="50%" style="max-width: 50%;"></div>
-  </div>
-</div>
+	<!--------About---->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.jpg">
+		</div>
 
+		<div class="about-text">
+			<h3>I'm a Designer</h3>
+			<h2>I Can Design Anything You Want</h2>
+			<p>Hello there! I'm a web designer, and I'm very passionate and dedicated to my work. With 6 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+			<a href="#" class="btn">Hire Me</a>
+		</div>
+	</section>
 
-  
-    </div>
-  </section>
-   
-    <!-- SKILLS// -->
-<hr>
-    <!-- ABOUT -->
-    <section id="about" class="about">
-      <div class="contain">
+	<!--------portfolio---->
+	<section class="portfolio" id="portfolio">
+		<div class="heading">
+			<h3>Portfolio</h3>
+			<h2>My Amazing Work</h2>
+			<p>Most common methods for designing websites that work well on desktop is <br> responsive and adaptive design</p>
+		</div>
 
-        <div class="section-title">
-          <h2>About</h2>
-          <p>Welcome to my Portfolio, interesting things we are going to achieve. Most The information you will need, could easily be found below</p>
-        </div>
+		<div class="portfolio-content">
+			<div class="col">
+				<img src="img/work1.jpg">
+				<div class="layer">
+					<h3>Web Design</h3>
+					<h5>Popup</h5>
+				</div>
+			</div>
 
-        <div class="row">
-          <div class="col-lg-4 aos-init aos-animate" data-aos="fade-right">
-            <img src="img/i5.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content aos-init aos-animate" data-aos="fade-left">
-            <h3>UI/UX Designer &amp; Web Developer.</h3>
-           
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 14 March 2003</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +223 550 748  724</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Current Country:</strong>  Ghana</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>City: </strong>Accra, Kasoa</li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 19</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Computer Engineering(50%)</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Email Account:</strong> eyandilutherking2003@gmail.com</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
-                </ul>
-              </div>
-            </div>
-            <p>
-             
+			<div class="col">
+				<img src="img/work2.jpg">
+				<div class="layer">
+					<h3>Web Design</h3>
+					<h5>Popup</h5>
+				</div>
+			</div>
 
-In her dream she is fourteen, running home from work on precarious little heels, down the paved street, as molten metal plip-plops around her, dotting the cement with perfect silver discs. Her mother lags six feet behind, following her footsteps, urging her to tread carefully. A V2 rocket launches overhead, triggering the timer in her mind. She waits in the signature silence for the rocket to find its mark, as it careens noiselessly through the night sky.
+			<div class="col">
+				<img src="img/work3.jpg">
+				<div class="layer">
+					<h3>Web Design</h3>
+					<h5>Popup</h5>
+				</div>
+			</div>
 
-“One,” she shouts, “Two. Three. Four.”
+			<div class="col">
+				<img src="img/work4.jpg">
+				<div class="layer">
+					<h3>Web Design</h3>
+					<h5>Popup</h5>
+				</div>
+			</div>
 
-“We have plenty of time, Lizzy, plenty of time.” Her mother is shouting, over and over, no panic, just a calm, reassuring scream.
+			<div class="col">
+				<img src="img/work5.jpg">
+				<div class="layer">
+					<h3>Web Design</h3>
+					<h5>Popup</h5>
+				</div>
+			</div>
 
-It is the same dream as always. Lizzy reaches behind and grabs the older woman’s hand, pulls her into the shelter of their porch, watching as the house across the road explodes into a heap of searing, flaming rubble.
+			<div class="col">
+				<img src="img/work6.jpg">
+				<div class="layer">
+					<h3>Web Design</h3>
+					<h5>Popup</h5>
+				</div>
+			</div>
 
-*****
+		</div>
+	</section>
 
-My mother, Lizzy, is ninety-seven, and I think of her as a survivor. Of life and time. Not long ago she had a mother, husband, sister and two daughters. Now she has me.
+	<!--------service---->
+	<section class="service" id="service">
+		<div class="heading">
+			<h3>Service</h3>
+			<h2>What I Do For Clients</h2>
+			<p>Most common methods for designing websites that work well on desktop is <br> responsive and adaptive design</p>
+		</div>
 
-Twice a week I open the door to her house and look left, peering through the curtained darkness, along the hall and into her bedroom. I can see she is still sleeping. Under the formless camouflage of blankets, her shape has diminished and become frail, although her carers joke that she inhales each meal. They also say she is still stubborn, but in a cute way. She has passed the irritating cantankerousness of old age, and drifted without notice into the gentle humility of a disappearing mind.
+		<div class="service-content">
+			<div class="row">
+				<div class="s s-one">
+					<img src="img/anchor.svg">
+				</div>
+				<h3>E-commerce</h3>
+				<h5>Starts From <span>&#8373;2000</span></h5>
+				<p>E-commerce Website. A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service</p>
+			</div>
 
-There is not enough time in a day to see her more often, or so my private narrative goes, constructing a life so much more important, exciting, exasperatingly busy than it is.
+			<div class="row">
+				<div class="s s-tow">
+					<img src="img/physics.svg">
+				</div>
+				<h3>Portfolio website</h3>
+				<h5>Starts From <span>&#8373;1200</span></h5>
+				<p>A portfolio site is an extension of a résumé. It provides a convenient way for potential clients to view your work while also allowing you to expand on your skills and services.</p>
+			</div>
 
-“I’m so grateful you look after me, so glad,” she repeats. I accept her gratitude, even though guilt battles with honesty, and pulses through my brain at sleepless midnights.
+			<div class="row">
+				<div class="s s-three">
+					<img src="img/contact.svg">
+				</div>
+				<h3>Blog Websites</h3>
+				<h5>Starts From <span>&#8373;1500</span></h5>
+				<p>Many people look for ways to expand their online presence and possibly generate additional income while doing so. While one of the most popular strategies is launching a blog</p>
+			</div>
 
-*****
+			<div class="row">
+				<div class="s s-four">
+					<img src="img/web.svg">
+				</div>
+				<h3>School Web Application</h3>
+				<h5>Starts From <span>&#8373;2500</span></h5>
+				<p>A website improves social interaction and communication skills of teachers and students by sending and receiving emails. A website with having useful links extends the learning experience into the home. A website provides opportunity to other universities and donors to get information about the university.</p>
+			</div>
 
-In her dream, she is eighteen, with the blonde permed hair and arched brows of a movie star. Her husband George, the love of her life, is away at war, and she fears he will never come home. He writes sometimes, although there are no mailboxes in the Pacific, and home is his last thought as suicide planes fall burning out of the sky. The blackened casualties of war sleep beside him in rows on the smoking deck. She wakes sobbing, drenched in fear, and spots the picture of a bride and groom on her bedside. Reassured, she remembers the sixty years of devoted life with him, recalls they had plenty of time, and longs for more.
+		</div>
+	</section>
 
-*****
+	<!--------work---->
+	<section class="cta">
+		<div class="heading">
+			<h2>Completed 12+ Projects <br> Successfully</h2>
+		</div>
 
-I try to wake her but she is in a deep sleep. I know the conversation if she wakes. I will ask her if she has eaten and she will say she’s not hungry. I will try to cajole her into the warming sunlight, pressure her to have tea and a chat. She will refuse. She will tell me she is happy to be curled up in her warm bed, that she is tired. She will finally say that I should expect this from someone ninety-seven years old. It’s her own truth and I cannot dispute it, so I let her sleep undisturbed.
+		<div class="cta-box">
+			<div class="wrap one">
+				<h3>12+</h3>
+				<p>Finished Projects</p>
+			</div>
 
-*****
+			<div class="wrap two">
+				<h3>50+</h3>
+				<p>Happy Customer</p>
+			</div>
 
-In her dream she is twenty-four and very pregnant, so near childbirth that pains come, quick and unbearable. The midwife arrives a true professional; blue skirt, tie and cape, nylons and sturdy black brogues, a nurse’s crisp white cap on her head. Mabel is confined to a home birth, banished from the hospital with an acute case of chickenpox. She is infected, contagious, but her baby does not care about blisters and disease. She is ready to become.
+			<div class="wrap three">
+				<h3>2K</h3>
+				<p>Global Customers</p>
+			</div>
 
-“Should she push harder?” George asks.
+		</div>
+	</section>
 
-“No. We have plenty of time,” the midwife says. It is a lie of consolation.
+	<!--------contact---->
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="center">
+				<h3>Let's talk about everything</h3>
+				<p>Don't like forms? Send me an email.</p>
+			</div>
 
-The baby’s head finally crowns, but the midwife’s face tells a grim story as towel after towel is soaked in red, and Lizzy fades.
+			<div class="action">
+				<form action="mailto:eyandilutherking2003@gmail.com" method="post">
+					<input type="email" name="email" placeholder="Enter Your email" required>
+					<input type="submit" name="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</section>
 
-She holds the greasy, squirming baby to her breast, and wakes with the sound of an ambulance siren still wailing in her mind.
+	<!--------ends---->
+	<div class="ends">
+		<p>Powered By AlienX © 2022</p>
+	</div>
 
-*****
+	<script src="https://unpkg.com/scrollreveal"></script>
 
-I have come up with a plan. I will call on her at a random time and she will be whisked away to her favourite spot near the beach. A chair will be taken, rugs and pillows, and she will sit like an ancient empress, commanding the clouds across the cool Autumn sun. Trees will shade us in the ozone rich afternoon, and steaming tea in a thermos will be sipped from carefully transported china cups with matching saucers and silver spoons. Our picnic will be finished with fruit cake and a tiny, delicate stroll along the sand.
-
-I knock as usual, key poised, ready to fend off her refusal. The plan requires myself and a Carer, remembering the stubborn streak, to get her up and out of bed. Washed and dressed, lipstick and eyebrows. She opens the door in pink striped flannel pajamas, hair askew, stares blankly into my face and asks the silent question: Who are you? She pivots on unsteady legs, each step is a danger of falling, but she stands firm, rebuffing my proposal as she perilously shuffles to her room and climbs back in bed.
-
-“No,” she says, “I want to sleep.”
-
-I am my mother’s daughter and I know that tone. I let her sleep and all my fanciful plans collapse. As I leave, the dim hope for a future picnic rings with mocking laughter.
-
-*****
-
-In her dream, she is ninety-three. People sit around her, people she knows but with faces fading fast. They are hushed and without spirit, speaking with the reverence of dying and death, telling her that her older daughter, Jane, is struck down with cancer. Inoperable, impossible, fatal. An unearthly wail leaves Lizzy’s throat and punches out into the room. It is a sound no-one should ever be forced to make, or hear. A parent mourning a child. The ultimate betrayal of life.
-
-Later in the dream, in roles reversed, the dying daughter embraces her mother until she calms, tells her it will be alright.
-
-“We have plenty of time.” Jane says.
-
-Comforted, Lizzy wakes, as her daughter’s shadow bends to kiss her on the cheek, and says goodbye.
-
-*****
-
-I try to organise a lunch for mum but again I fail. Fighting with the ancient is so unseemly. Just let her be. She’s happy in her home, her bed, regardless of what you want, of what you think is good for her.
-
-Other people’s words fly round my head like wild birds in an aviary, flapping and squawking, until I tame them.
-
-Today I will just sit beside her bed and hold her hand and let her sleep. And if she wakes, I’ll make a cup of tea, and tell her about the world outside. And how much I love her. Until she goes back into sleep.
-
-And so I’m here remembering the mother that created us; children, grandchildren, and great-grandchildren. She is not elderly and frail, with unkempt white hair and paper thin skin. Her fingers don’t bend like misshapen twigs. They work and create, hug, and clap with joy. That woman is still there, beneath the most precarious veneer of life, and it is a celebration just being with her.
-
-*****
-
-In her dream, she is ninety-seven and the remaining daughter visits each day. They smile and laugh and talk about the weather, the kids, the little things of normal life. Her daughter is busy, but stays a little longer, until she sees the time and stands to rush away.
-
-My mother urges the woman to stay longer, to sit.
-
-“We have plenty of time.” She says.
-
-“Yes.” I smile, “plenty.”
-                      <p class="text-end"">My mother’s Dream by Janetthe Planet 66
-                      <br>https://blog.reedsy.com/short-story/mq8xiq/</p>           
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    
-    <!-- ABOUT// -->
-    <hr>
-
-<!-- EDUCATION -->
-<section id="education">
-
-  <h2>EDUCATION</h2>
-  <ul>
-    <li><a href="https://www.diligentbilingual.org/dbs-kumba-campus">Deligent Bilingual School, Kumba</a></li>
-    <li>First Choice Primary School</li>
-    <li><a href="https://www.etacolleges.com/">ETA College International School,Kumba</a> </li>
-    <li><a href="https://www.sammoshs.com/">Sammo Senior High School</a></li>
-    <li><a href="https://site.gctu.edu.gh/">Ghana Communication Technology University</a></li>
-    <li>Peoples Progressive Nursery and Primary School,Ndobo,Bonaberi, Douala</li>                                      
-  
-  </ul>
-</section>
-
-<!-- EDUCATION// -->
-<!-- footer -->
-<div class="contact-me">
-  <h2 style="text-align:center;">Get In Touch</h2>
-  <a class="btn btn-main" target="_blank" href="https://web.facebook.com/eyandi.lutherking.9?_rdc=1&_rdr">Contact me</a>
-<br><br><br><br>
-</div>
-<p style="text-align: center;"></p>
-<p style="text-align: center; center;border-bottom-width: 12px;border-bottom-style: solid;border-top-width: 20px;border-top-style: solid">&copy;2022 Luther Eyandi Essum</p>
-
-<!-- footer// -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
-  </body>
+	<!--------Link to js---->
+	<script type="text/javascript" src="js/script.js"></script>
+	
+</body>
 </html>
