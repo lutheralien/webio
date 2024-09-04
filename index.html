@@ -1,260 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Welcome to AlienX</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luther Eyandi - Full Stack Developer</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-	<!--------header---->
-	<header>
-		<h1>AlienX</h1>
-		<div class="bx bx-menu" id="menu-icon"></div>
+    <header>
+        <h1>Luther Eyandi</h1>
+        <nav>
+            <ul class="navlist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
 
-		<ul class="navlist">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#service">Service</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-		<a href="https://drive.google.com/file/d/1Vv2DWj13fqpkup1_WgqA8FE3I-iE9RQ9/view" class="top-btn">Download CV</a>
-	</header>
+    <main>
+        <section id="home" class="home">
+            <div class="home-text">
+                <h2>Hello, I'm</h2>
+                <h1>Luther Eyandi</h1>
+                <h3>Full Stack Developer</h3>
+                <p>Passionate about creating efficient, scalable, and user-friendly web applications.</p>
+                <div class="social">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+            <div class="home-img">
+                <img src="img/profile.jpg" alt="Luther Eyandi">
+            </div>
+        </section>
 
-	<!--------home---->
-	<section class="home" id="home">
-		<div class="home-text">
-			<h3>Hello, I'm</h3>
-			<h1>Luther Eyandi</h1>
-			<h5>A Creative Designer <span>From Kasoa</span></h5>
-			<p>I'm creative designer based in Accra, and I'm very passionate <br> and dedicated to my work.</p>
-			<div class="social">
-				<a href="https://web.facebook.com/eyandi.lutherking.9/"><i class='bx bxl-facebook'></i></a>
-				<a href="https://www.instagram.com/luther_alien/"><i class='bx bxl-instagram'></i></a>
-				<a href="https://www.linkedin.com/in/eyandi-lutherking-6656a8206/"><i class='bx bxl-linkedin' ></i></a>
-				<p> +233 550 748 724</p>
-				
-			</div>
-			<a href="#" class="btn">About Me</a>
-		</div>
+        <section id="skills" class="skills">
+            <h2>Technical Skills</h2>
+            <div class="skill-grid">
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <h3>MongoDB</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS</h3>
+                </div>
+            </div>
+        </section>
 
-		<div class="home-img">
-			<img src="img/main.png">
-		</div>
-	</section>
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="img/project1.jpg" alt="Project 1">
+                    <h3>E-commerce Platform</h3>
+                    <p>A full-stack e-commerce solution built with MERN stack.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <img src="img/project2.jpg" alt="Project 2">
+                    <h3>Task Management App</h3>
+                    <p>A React-based task manager with real-time updates.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <img src="img/project3.jpg" alt="Project 3">
+                    <h3>Data Visualization Dashboard</h3>
+                    <p>Interactive dashboard using D3.js and React.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
 
-	<!--------sub service---->
-	<section class="sub-service">
-		<div class="items">
-			<div class="sub-box">
-				<div class="sub-img">
-					<img src="img/target.svg">
-				</div>
-				<h3>Pixel Perfect</h3>
-				<p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
-			</div>
+        <section id="experience" class="experience">
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <h3>Senior Full Stack Developer</h3>
+                <h4>Tech Solutions Inc.</h4>
+                <p class="date">2020 - Present</p>
+                <ul>
+                    <li>Led the development of a high-traffic e-commerce platform.</li>
+                    <li>Implemented CI/CD pipelines, reducing deployment time by 40%.</li>
+                    <li>Mentored junior developers and conducted code reviews.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Full Stack Developer</h3>
+                <h4>WebDev Experts</h4>
+                <p class="date">2018 - 2020</p>
+                <ul>
+                    <li>Developed and maintained multiple client websites using MEAN stack.</li>
+                    <li>Optimized database queries, improving application performance by 30%.</li>
+                    <li>Integrated third-party APIs for payment processing and social media.</li>
+                </ul>
+            </div>
+        </section>
 
-			<div class="sub-box">
-				<div class="sub-img">
-					<img src="img/brush.svg">
-				</div>
-				<h3>High Quality</h3>
-				<p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
-			</div>
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
 
-			<div class="sub-box">
-				<div class="sub-img">
-					<img src="img/energy.svg">
-				</div>
-				<h3>Awesome Idea</h3>
-				<p>Most common methods for designing websites that work well on desktop is responsive and adaptive design.</p>
-			</div>
+    <footer>
+        <p>&copy; 2024 Luther Eyandi. All rights reserved.</p>
+    </footer>
 
-		</div>
-	</section>
-
-	<!--------About---->
-	<section class="about" id="about">
-		<div class="about-img">
-			<img src="img/about.jpg">
-		</div>
-
-		<div class="about-text">
-			<h3>I'm a Designer</h3>
-			<h2>I Can Design Anything You Want</h2>
-			<p>Hello there! I'm a web designer, and I'm very passionate and dedicated to my work. With 5 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
-			<a href="#" class="btn">Hire Me</a>
-		</div>
-	</section>
-
-	<!--------portfolio---->
-	<section class="portfolio" id="portfolio">
-		<div class="heading">
-			<h3>Portfolio</h3>
-			<h2>My Amazing Work</h2>
-			<p>Most common methods for designing websites that work well on desktop is <br> responsive and adaptive design</p>
-		</div>
-
-		<div class="portfolio-content">
-			<div class="col">
-				<img src="img/work1.jpg">
-				<div class="layer">
-					<h3>Web Design</h3>
-					<h5>Popup</h5>
-				</div>
-			</div>
-
-			<div class="col">
-				<img src="img/work2.jpg">
-				<div class="layer">
-					<h3>Web Design</h3>
-					<h5>Popup</h5>
-				</div>
-			</div>
-
-			<div class="col">
-				<img src="img/work3.jpg">
-				<div class="layer">
-					<h3>Web Design</h3>
-					<h5>Popup</h5>
-				</div>
-			</div>
-
-			<div class="col">
-				<img src="img/work4.jpg">
-				<div class="layer">
-					<h3>Web Design</h3>
-					<h5>Popup</h5>
-				</div>
-			</div>
-
-			<div class="col">
-				<img src="img/work5.jpg">
-				<div class="layer">
-					<h3>Web Design</h3>
-					<h5>Popup</h5>
-				</div>
-			</div>
-
-			<div class="col">
-				<img src="img/work6.jpg">
-				<div class="layer">
-					<h3>Web Design</h3>
-					<h5>Popup</h5>
-				</div>
-			</div>
-
-		</div>
-	</section>
-
-	<!--------service---->
-	<section class="service" id="service">
-		<div class="heading">
-			<h3>Service</h3>
-			<h2>What I Do For Clients</h2>
-			<p>Most common methods for designing websites that work well on desktop is <br> responsive and adaptive design</p>
-		</div>
-
-		<div class="service-content">
-			<div class="row">
-				<div class="s s-one">
-					<img src="img/anchor.svg">
-				</div>
-				<h3>E-commerce</h3>
-				<h5>Starts From <span>&#8373;2000</span></h5>
-				<p>E-commerce Website. A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service</p>
-			</div>
-
-			<div class="row">
-				<div class="s s-tow">
-					<img src="img/physics.svg">
-				</div>
-				<h3>Portfolio website</h3>
-				<h5>Starts From <span>&#8373;1200</span></h5>
-				<p>A portfolio site is an extension of a résumé. It provides a convenient way for potential clients to view your work while also allowing you to expand on your skills and services.</p>
-			</div>
-
-			<div class="row">
-				<div class="s s-three">
-					<img src="img/contact.svg">
-				</div>
-				<h3>Blog Websites</h3>
-				<h5>Starts From <span>&#8373;1500</span></h5>
-				<p>Many people look for ways to expand their online presence and possibly generate additional income while doing so. While one of the most popular strategies is launching a blog</p>
-			</div>
-
-			<div class="row">
-				<div class="s s-four">
-					<img src="img/web.svg">
-				</div>
-				<h3>School Web Application</h3>
-				<h5>Starts From <span>&#8373;2500</span></h5>
-				<p>A website improves social interaction and communication skills of teachers and students by sending and receiving emails. A website with having useful links extends the learning experience into the home. A website provides opportunity to other universities and donors to get information about the university.</p>
-			</div>
-
-		</div>
-	</section>
-
-	<!--------work---->
-	<section class="cta">
-		<div class="heading">
-			<h2>Completed 12+ Projects <br> Successfully</h2>
-		</div>
-
-		<div class="cta-box">
-			<div class="wrap one">
-				<h3>12+</h3>
-				<p>Finished Projects</p>
-			</div>
-
-			<div class="wrap two">
-				<h3>50+</h3>
-				<p>Happy Customer</p>
-			</div>
-
-			<div class="wrap three">
-				<h3>2K</h3>
-				<p>Global Customers</p>
-			</div>
-
-		</div>
-	</section>
-
-	<!--------contact---->
-	<section class="contact" id="contact">
-		<div class="container">
-			<div class="center">
-				<h3>Let's talk about everything</h3>
-				<p>Don't like forms? Send me an email.</p>
-			</div>
-
-			<div class="action">
-				<form action="mailto:eyandilutherking2003@gmail.com" method="post">
-					<input type="email" name="email" placeholder="Enter Your email" required>
-					<input type="submit" name="submit" value="Submit">
-				</form>
-			</div>
-		</div>
-	</section>
-
-	<!--------ends---->
-	<div class="ends">
-		<p>Powered By AlienX © 2022</p>
-	</div>
-
-	<script src="https://unpkg.com/scrollreveal"></script>
-
-	<!--------Link to js---->
-	<script type="text/javascript" src="js/script.js"></script>
-	
+    <script src="js/script.js"></script>
 </body>
 </html>
