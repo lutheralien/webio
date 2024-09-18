@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Luther Eyandi - Full Stack Developer</title>
+    <title>Luther Eyandi Essum - Full Stack Developer</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -11,132 +11,214 @@
 </head>
 <body>
     <header>
-        <h1>Luther Eyandi</h1>
-        <nav>
-            <ul class="navlist">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="menu-toggle" id="menu-toggle">
-            <i class="fas fa-bars"></i>
+        <div class="container">
+            <h1>LutherAlien</h1>
+            <nav>
+                <ul class="navlist">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
 
     <main>
         <section id="home" class="home">
-            <div class="home-text">
-                <h2>Hello, I'm</h2>
-                <h1>Luther Eyandi</h1>
-                <h3>Full Stack Developer</h3>
-                <p>Passionate about creating efficient, scalable, and user-friendly web applications.</p>
-                <div class="social">
-                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+            <div class="container">
+                <div class="home-text">
+                    <h2>Hello, I'm</h2>
+                    <h1>Luther Eyandi Essum</h1>
+                    <h3 id="job-title"></h3>
+                    <p>Motivated Computer Science major with a passion for leveraging technology to solve real-world problems.</p>
+                    <div class="social">
+                        <a href="https://github.com/lutheralien" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://gh.linkedin.com/in/lutheralien" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/luther_essum" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <a href="#contact" class="btn">Get In Touch</a>
                 </div>
-                <a href="#contact" class="btn">Get In Touch</a>
+                <div class="home-img" style="position: relative; overflow: hidden; border-radius: 10px; width: 100%; max-width: 400px; margin: 0 auto; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                    <div style="padding-top: 100%; position: relative;">
+                        <img src="img/web.jpeg" alt="Luther Eyandi Essum" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    </div>
+                </div>
+                
             </div>
-            <div class="home-img">
-                <img src="img/profile.jpg" alt="Luther Eyandi">
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>I'm a Computer Science major at Accra Institute of Technology, expected to graduate in March 2025. I'm passionate about software development, web design, and project management. When I'm not coding, I enjoy watching movies, playing football, and learning new programming concepts.</p>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <p><strong>Bachelor of Science in Computer Science</strong><br>
+                        Accra Institute of Technology, Weija<br>
+                        (Expected Graduation: March 2025)</p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="skills" class="skills">
-            <h2>Technical Skills</h2>
-            <div class="skill-grid">
-                <div class="skill-item">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-react"></i>
-                    <h3>React</h3>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-node-js"></i>
-                    <h3>Node.js</h3>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-database"></i>
-                    <h3>MongoDB</h3>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-python"></i>
-                    <h3>Python</h3>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-aws"></i>
-                    <h3>AWS</h3>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="projects">
-            <h2>Featured Projects</h2>
-            <div class="project-grid">
-                <div class="project-item">
-                    <img src="img/project1.jpg" alt="Project 1">
-                    <h3>E-commerce Platform</h3>
-                    <p>A full-stack e-commerce solution built with MERN stack.</p>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-                <div class="project-item">
-                    <img src="img/project2.jpg" alt="Project 2">
-                    <h3>Task Management App</h3>
-                    <p>A React-based task manager with real-time updates.</p>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-                <div class="project-item">
-                    <img src="img/project3.jpg" alt="Project 3">
-                    <h3>Data Visualization Dashboard</h3>
-                    <p>Interactive dashboard using D3.js and React.</p>
-                    <a href="#" class="btn">View Project</a>
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skill-grid">
+                    <div class="skill-item reveal">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-item reveal">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-item reveal">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="skill-item reveal">
+                        <i class="fab fa-node-js"></i>
+                        <h3>Node.js</h3>
+                    </div>
+                    <div class="skill-item reveal">
+                        <i class="fab fa-angular"></i>
+                        <h3>Angular</h3>
+                    </div>
+                    <div class="skill-item reveal">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>React Native</h3>
+                    </div>
+                    <div class="skill-item reveal">
+                        <i class="fas fa-database"></i>
+                        <h3>MongoDB</h3>
+                    </div>
+                    <div class="skill-item reveal">
+                        <i class="fas fa-database"></i>
+                        <h3>MySQL</h3>
+                    </div>
+                    <div class="skill-item reveal">
+                        <i class="fab fa-js"></i>
+                        <h3>TypeScript</h3>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="experience" class="experience">
-            <h2>Work Experience</h2>
-            <div class="experience-item">
-                <h3>Senior Full Stack Developer</h3>
-                <h4>Tech Solutions Inc.</h4>
-                <p class="date">2020 - Present</p>
-                <ul>
-                    <li>Led the development of a high-traffic e-commerce platform.</li>
-                    <li>Implemented CI/CD pipelines, reducing deployment time by 40%.</li>
-                    <li>Mentored junior developers and conducted code reviews.</li>
-                </ul>
+            <div class="container">
+                <h2>Professional Experience</h2>
+                <div class="experience-item reveal">
+                    <h3>Chief Technology Officer & Lead Developer</h3>
+                    <h4>LazyLogic</h4>
+                    <p class="date">9 months | Accra, Ghana</p>
+                    <ul>
+                        <li>Directed technological strategies and led development efforts.</li>
+                        <li>Architected scalable software solutions and ensured secure technical operations.</li>
+                        <li>Implemented best practices in code quality, version control, and API documentation.</li>
+                        <li>Technologies: Angular, TypeScript, MongoDB, React Native, AWS.</li>
+                    </ul>
+                </div>
+                <div class="experience-item reveal">
+                    <h3>Chrome Extension Developer</h3>
+                    <h4>AI-Powered PDF Form Filling Extension (Testing Phase)</h4>
+                    <ul>
+                        <li>Developing a Chrome extension leveraging AI for PDF form completion.</li>
+                        <li>Designed the client-side interface with React and Vite, and integrated NLP via Cohere API.</li>
+                        <li>Focused on data security, user testing, and model refinement.</li>
+                        <li>Technologies: React, Vite, Chrome Extension API, PDFParser, TypeScript and Vanilla JavaScript.</li>
+                    </ul>
+                </div>
+                <div class="experience-item reveal">
+                    <h3>Full-Stack Developer</h3>
+                    <h4>Campus-Specific Food Delivery Application (In Progress)</h4>
+                    <ul>
+                        <li>Developing a tailored food delivery app for UPSA and Legon campuses.</li>
+                        <li>Designed a web dashboard using Angular with real-time tracking and responsive interfaces.</li>
+                        <li>Spearheaded backend development using TypeScript, MongoDB, and RESTful APIs.</li>
+                        <li>Leading mobile app development in React Native for cross-platform compatibility.</li>
+                        <li>Technologies: Angular, TypeScript, MongoDB, React Native, Node.js.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="experience-item">
-                <h3>Full Stack Developer</h3>
-                <h4>WebDev Experts</h4>
-                <p class="date">2018 - 2020</p>
-                <ul>
-                    <li>Developed and maintained multiple client websites using MEAN stack.</li>
-                    <li>Optimized database queries, improving application performance by 30%.</li>
-                    <li>Integrated third-party APIs for payment processing and social media.</li>
-                </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-item reveal">
+                        <h3>Chrome Extension for Form Autofill</h3>
+                        <p>Developed a Chrome extension that automates form filling for a company, increasing efficiency and reducing data entry errors.</p>
+                        <p>Technologies: Vite, Chrome Extension API, Javascript, CSS</p>
+                    </div>
+                    <div class="project-item reveal">
+                        <h3>E-commerce Clothing Website</h3>
+                        <p>Created a responsive clothing website with Paystack integration for secure payments, enhancing the online shopping experience.</p>
+                        <p>Technologies: React, Node.js, Express, MongoDB, Paystack API, Angular</p>
+                        <a href="https://pothbee.store" target="_blank" class="btn">View Project</a>
+                    </div>
+                    <div class="project-item reveal">
+                        <h3>Laundry Application API</h3>
+                        <p>Developed a robust API for a laundry application, streamlining services for users.</p>
+                        <p>Technologies: TypeScript, MongoDB</p>
+                    </div>
+                    <div class="project-item reveal">
+                        <h3>Image-based Verification System</h3>
+                        <p>Developed for Digitrust Ghana to address fraudulent insurance claims.</p>
+                        <a href="https://digitrustghana.com" target="_blank" class="btn">View Project</a>
+                    </div>
+                    <div class="project-item reveal">
+                        <h3>Edu Herbal Clinic Website</h3>
+                        <p>Created a user-friendly webpage with scheduling features and clinic information display.</p>
+                        <a href="https://edheclinic.com" target="_blank" class="btn">View Project</a>
+                    </div>
+                    <div class="project-item reveal">
+                        <h3>AIT Field Questionnaire</h3>
+                        <p>Engineered a questionnaire to gather and analyze perceptions of engineering across various fields.</p>
+                        <a href="https://aitfield.tech" target="_blank" class="btn">View Project</a>
+                    </div>
+                    <div class="project-item reveal">
+                        <h3>MySchoolIss (Ongoing)</h3>
+                        <p>Contributing to the development of a platform addressing issues faced by private schools in Ghana.</p>
+                        <a href="https://myschooliss.com" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="contact" class="contact">
-            <h2>Get In Touch</h2>
-            <form id="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Weija, Block Factory, Accra</p>
+                    <p><i class="fas fa-phone"></i> 0550748724</p>
+                    <p><i class="fas fa-envelope"></i> Eyandilutherking2003@gmail.com</p>
+                </div>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Luther Eyandi. All rights reserved.</p>
+        <p>&copy; 2024 Luther Eyandi Essum. All rights reserved.</p>
     </footer>
+
+    <button class="dark-mode-toggle" id="darkModeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
 
     <script src="js/script.js"></script>
 </body>
